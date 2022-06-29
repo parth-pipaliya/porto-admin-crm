@@ -1,0 +1,17 @@
+.custom-multi-select .btn-group, .btn-group-vertical {
+    display: block !important;
+}
+.custom-multi-select .btn-group > .btn, .btn-group-vertical > .btn{
+    width: -webkit-fill-available !important;
+}
+.custom-multi-select .btn .caret {
+    float: right !important;
+    margin-top: 7px !important;
+}
+.custom-multi-select span.multiselect-selected-text {
+    float: left !important;
+}
+.custom-multi-select button.multiselect.dropdown-toggle.btn.btn-default.disabled{
+    background-color: #eee !important;
+    opacity: 1 !important;
+}
